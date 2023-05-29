@@ -1,0 +1,17 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    /* Agrega otros estilos de fuente según tus preferencias */
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,32 @@
+.contactoContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contactoContainer h1 {
+    font-size: 24px;
+    color: #050505;
+  }
+  
+  .contactoContainer p {
+    font-size: 18px;
+    color: #0a0a0a;
+    margin-bottom: 20px;
+  }
+  
+  .contactoContainer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contactoContainer li {
+    font-size: 16px;
+    color: #020202;
+    margin-bottom: 10px;
+  }
+  
+  .contactoContainer .socialLink {
+    color: #007bff;
+    margin-right: 10px;
+  }
+  

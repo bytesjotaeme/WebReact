@@ -1,6 +1,7 @@
 .searchContainer {
   display: flex;
   justify-content: center;
+  margin-top: 20px; /* Ajusta la separación de la parte superior */
 }
 
 .searchBox {
@@ -15,10 +16,10 @@
 }
 
 .searchInput {
-  font-size: 1.2rem;
-  height: 30px;
+  font-size: 1.4rem; /* Ajusta el tamaño de la fuente según tu preferencia */
+  height: 40px; /* Ajusta la altura del campo de búsqueda según tu preferencia */
   border-radius: 10px;
-  padding: 5px 30px 5px 10px;
+  padding: 10px 30px 10px 10px; /* Ajusta el espaciado del contenido dentro del campo de búsqueda */
   border: 1px solid white;
 }
 

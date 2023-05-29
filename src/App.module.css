@@ -1,6 +1,43 @@
-.title {
-  text-align: center;
-  font-size: 3rem;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
-    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+.bannerContainer {
+  width: 100%;
+  height: 220px; /* Ajusta la altura del banner según tu preferencia */
+  position: relative;
+  overflow: hidden;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.buttonContainer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Ajusta el color de fondo del contenedor de botones */
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 10px;
+  color: white;
+  font-size: 16px; /* Ajusta el tamaño de la fuente según tu preferencia */
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navButton:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Ajusta el color de fondo al pasar el cursor sobre los botones */
+}
+
+.navButton:not(:last-child) {
+  border-right: 1px solid white; /* Agrega una línea separadora entre los botones */
 }

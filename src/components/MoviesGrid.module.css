@@ -11,3 +11,93 @@
     grid-template-columns: 100%;
   }
 }
+
+.footer {
+  background-color: #b1b0b0;
+  padding: 20px 20px; /* Ajusta el padding aquí */
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrollButton {
+  background-color: #000000;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scrollButton:hover {
+  background-color: #000000;
+}
+
+.footerText {
+  display: flex;
+  align-items: center;
+}
+
+.footerText p {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+}
+
+.socialLinks a {
+  margin-left: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.socialLinks a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.socialLinks a:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.pagination button {
+  background-color: #000000;
+  color: #fff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.pagination button:hover {
+  background-color: #111111;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
