@@ -4,8 +4,8 @@
   text-align: center;
 }
 .movieTitle {
-  font-family: "Arial", sans-serif; /* Ajusta la fuente según tus preferencias */
-  color: black; /* Cambia el color de las letras a negro */
+  font-family: 'Bebas Neue', sans-serif;/* Ajusta la fuente según tus preferencias */
+  color: rgb(0, 0, 0); /* Cambia el color de las letras a negro */
   font-size: 1.2rem; /* Ajusta el tamaño de la fuente según tus preferencias */
 }
 

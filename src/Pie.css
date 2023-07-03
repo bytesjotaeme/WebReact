@@ -1,0 +1,18 @@
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .pieContenido {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pieContenido p {
+    font-size: 13px;
+    color: #909090;
+    margin-bottom: 10px;
+  }
+  

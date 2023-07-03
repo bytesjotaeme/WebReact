@@ -1,9 +1,9 @@
 .moviesGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 230px);
-  gap: 40px;
-  padding: 40px;
-  justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cambia el tamaño mínimo y máximo según tus necesidades */
+    gap: 20px; /* Reduce el espacio entre las películas */
+    padding: 20px; /* Reduce el padding */
+    justify-content: center;
 }
 
 @media (max-width: 560px) {
@@ -11,57 +11,86 @@
     grid-template-columns: 100%;
   }
 }
+.movieItem {
+    /* Estilos para cada película en el grid */
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 10px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .movieTitle {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+
+  .textf {
+    background-color: #ffffff;
+    padding: 40px;
+    margin-bottom: -40px;
+    color: #0a0a0a;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .coys_tit {
+    font-weight: bold;
+    color: #020202;
+  }
+  
+  .textf h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .textf p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
 .footer {
-  background-color: #b1b0b0;
-  padding: 20px 20px; /* Ajusta el padding aquí */
-  text-align: center;
-}
-
-.footerContent {
+  position: relative;
+  
+  background-color: #ffffff;
+  padding: 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.scrollButton {
-  background-color: #000000;
-  color: #fff;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.scrollButton:hover {
-  background-color: #000000;
+.footerImage img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .footerText {
   display: flex;
   align-items: center;
+  font-size: 18px;
+  color: #000000;
 }
 
 .footerText p {
   margin-right: 15px;
   font-size: 14px;
-  color: #333;
+  color: #000000;
 }
 
 .socialLinks {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .socialLinks a {
-  margin-left: 20px;
   display: inline-block;
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-color: #007bff;
-  transition: background-color 0.3s ease;
 }
 
 .socialLinks a img {
@@ -71,25 +100,45 @@
   border-radius: 50%;
 }
 
-.socialLinks a:hover {
-  background-color: #0056b3;
+.scrollButton {
+  background-color: #02113f;
+  color: #ffffff;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  border: none;
+  cursor: pointer;
+}
+
+
+.scrollButtonContainer {
+    position: absolute;
+    top: 50%; /* Coloca el botón en el centro vertical */
+    right: 0;
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+  }
+  
+
+.scrollButton:hover {
+  background-color: #000000;
 }
 
 .pagination {
   display: flex;
   justify-content: center;
-  margin-top: -40px;
+  margin: 20px 0;
 }
 
 .pagination button {
-  background-color: #000000;
-  color: #fff;
-  padding: 5px 15px;
+  background-color: #333;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  margin: 0 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-left: 10px;
 }
 
 .pagination button:hover {
@@ -101,3 +150,7 @@
   cursor: not-allowed;
 }
 
+.bg-custom-blue {
+  background-color: #00254d;
+  /* Agrega otros estilos necesarios */
+}

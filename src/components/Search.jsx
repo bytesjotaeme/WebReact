@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
 import { FaSearch } from "react-icons/fa";
+
+
 import styles from "./Search.module.css";
 
 export function Search() {
