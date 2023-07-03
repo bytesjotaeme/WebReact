@@ -41,12 +41,12 @@ export function App() {
               <p className={styles.descripcion}>
                 Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.
               </p>
-              <button role="button" className={styles.boton}>
+              <button className={styles.boton}>
                 <a href="https://www.youtube.com/watch?v=LYS2O1nl9iM" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-play"></i>Reproducir
                 </a>
               </button>
-              <button role="button" className={styles.boton}>
+              <button className={styles.boton}>
                 <a href="https://es.wikipedia.org/wiki/Interstellar" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-info-circle"></i>Más información
                 </a>
